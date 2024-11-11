@@ -1,0 +1,114 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HonkaiDetail">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Character Banner Image -->
+        <ImageView
+            android:id="@+id/character_banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_bg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Character Portrait -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/character_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gradient_purple"
+            android:scaleType="matrix"
+            android:src="@drawable/character_march"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/character_banner"
+            app:shapeAppearanceOverlay="@style/roundedImageView2" />
+
+        <!-- Character Name -->
+        <TextView
+            android:id="@+id/tv_character_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            tools:src="March 7th"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/character_image"
+            app:layout_constraintTop_toTopOf="@+id/character_image" />
+
+        <!-- Character Description -->
+
+        <ImageView
+            android:id="@+id/rarity_image"
+            android:layout_width="80dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            tools:src="@drawable/icon5_stars"
+            app:layout_constraintBottom_toBottomOf="@+id/character_image"
+            app:layout_constraintStart_toStartOf="@+id/path_image"
+            app:layout_constraintTop_toBottomOf="@+id/path_image" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/path_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/gray"
+            tools:src="@drawable/path_hunt"
+            app:shapeAppearanceOverlay="@style/roundedImageView2"
+            app:layout_constraintBottom_toTopOf="@+id/tv_character_description"
+            app:layout_constraintStart_toStartOf="@+id/tv_character_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_character_name"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/tv_character_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/path_image"
+            app:layout_constraintStart_toEndOf="@+id/path_image"
+            app:layout_constraintTop_toTopOf="@+id/path_image"
+            tools:text="The Hunt" />
+
+        <ImageView
+            android:id="@+id/type_image"
+            android:layout_width="25dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="4dp"
+            tools:src="@drawable/type_imaginary"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_character_name"
+            app:layout_constraintStart_toEndOf="@+id/tv_character_name"
+            app:layout_constraintTop_toTopOf="@+id/tv_character_name" />
+
+        <TextView
+            android:id="@+id/tv_character_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:justificationMode="inter_word"
+            android:text="@string/desc"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/character_image"
+            app:layout_constraintTop_toBottomOf="@+id/character_image" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

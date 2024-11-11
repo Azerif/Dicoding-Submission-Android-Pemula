@@ -1,0 +1,143 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Honkai Star Rail</string>
+
+    <!-- Character Image Description -->
+    <string name="character_image_desc">Image of the character</string>
+
+    <!-- Character Names -->
+    <string-array name="data_name">
+        <item name="trailblazer_name">Trailblazer</item>
+        <item name="march_name">March 7th</item>
+        <item name="dan_name">Dan Heng</item>
+        <item name="herta_name">Herta</item>
+        <item name="bronya_name">Bronya</item>
+        <item name="seele_name">Seele</item>
+        <item name="jing_name">Jing Yuan</item>
+        <item name="blade_name">Blade</item>
+        <item name="kafka_name">Kafka</item>
+        <item name="silver_name">Silver Wolf</item>
+    </string-array>
+
+
+    <!-- Character Descriptions -->
+    <string-array name="data_description">
+        <item name="trailblazer_description">A girl/boy who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.</item>
+        <item name="march_description">March 7th in a Xianzhou-styled outfit. A sword-wielding female martial artist. Learning swordplay from both Yunli and Yanqing, she is eager to create more beautiful memories on the Xianzhou.</item>
+        <item name="danhenh_description">Dan Heng\'s true Vidyadhara form, revealed after accepting residual powers from the previous reincarnation of "Imbibitor Lunae." Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that person.However, he was never himself.</item>
+        <item name="herta_description">Member 83 of the Genius Society. The real master of the space station. An incredibly intelligent yet unsympathetic scientist.</item>
+        <item name="bronya_description">Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier.</item>
+        <item name="seele_description">A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka."She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart</item>
+        <item name="jing_description">The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.A student of the Luofu\'s previous Sword Champion, though not known for his martial prowess.</item>
+        <item name="blade_description">A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade. Pledges loyalty to "Destiny's Slave," and possesses a terrifying self-healing ability.</item>
+        <item name="kafka_description">A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats.</item>
+        <item name="silver_description">A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She\'s mastered the skill know as "aether editing" which can be used to tamper with the data of reality.</item>
+    </string-array>
+
+
+    <string-array name="data_path">
+        <item name="trailblazer_path">The Destruction</item>
+        <item name="march_path">The Preservation</item>
+        <item name="dan_path">The Hunt</item>
+        <item name="herta_path">The Erudition</item>
+        <item name="bronya_path">The Harmony</item>
+        <item name="seele_path">The Hunt</item>
+        <item name="jing_path">The Erudition</item>
+        <item name="blade_path">The Destruction</item>
+        <item name="kafka_path">The Nihility</item>
+        <item name="silver_path">The Nihility</item>
+    </string-array>
+
+    <!-- Profile Information -->
+    <string name="profile_title">About the Creator</string>
+    <string name="profile_name">Azrian Rifqi Radhitya</string>
+    <string name="profile_description">An aspiring developer exploring Android app development.</string>
+    <string name="about">about</string>
+    <string name="my_name">Azrian Rifqi Radhitya</string>
+    <string name="my_email">azrianrifqi115@gmail.com</string>
+    <string name="name">name</string>
+    <string name="back">back</string>
+    <string name="desc">A mysterious girl with a cheerful personality, armed with a bow.</string>
+    <string name="rarity">Rarity</string>
+    <string name="share">Share</string>
+
+    <integer-array name="character_img">
+        <item>@drawable/character_trailblazer</item>
+        <item>@drawable/character_march</item>
+        <item>@drawable/character_danheng</item>
+        <item>@drawable/character_herta</item>
+        <item>@drawable/character_bronya</item>
+        <item>@drawable/character_seele</item>
+        <item>@drawable/character_jingyuan</item>
+        <item>@drawable/character_blade</item>
+        <item>@drawable/character_kafka</item>
+        <item>@drawable/character_silverwolf</item>
+    </integer-array>
+
+    <integer-array name="character_bg">
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_purple</item>
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_purple</item>
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_yellow</item>
+        <item>@drawable/gradient_yellow</item>
+    </integer-array>
+
+    <integer-array name="type_icon">
+        <item>@drawable/type_physical</item>
+        <item>@drawable/type_imaginary</item>
+        <item>@drawable/type_imaginary</item>
+        <item>@drawable/type_ice</item>
+        <item>@drawable/type_wind</item>
+        <item>@drawable/type_quantum</item>
+        <item>@drawable/type_lightning</item>
+        <item>@drawable/type_wind</item>
+        <item>@drawable/type_lightning</item>
+        <item>@drawable/type_quantum</item>
+
+    </integer-array>
+
+    <integer-array name="path_icon">
+        <item>@drawable/path_destruction</item>
+        <item>@drawable/path_hunt</item>
+        <item>@drawable/path_destruction</item>
+        <item>@drawable/path_erudition</item>
+        <item>@drawable/path_harmony</item>
+        <item>@drawable/path_hunt</item>
+        <item>@drawable/path_destruction</item>
+        <item>@drawable/path_destruction</item>
+        <item>@drawable/path_nihility</item>
+        <item>@drawable/path_nihility</item>
+    </integer-array>
+
+    <string-array name="datatype_name">
+        <item name="Physical">Physical</item>
+        <item name="Imaginary">Imaginary</item>
+        <item name="Imaginary">Imaginary</item>
+        <item name="Ice">Ice</item>
+        <item name="Wind">Wind</item>
+        <item name="Quantum">Quantum</item>
+        <item name="Lightning">Lightning</item>
+        <item name="Wind">Wind</item>
+        <item name="Lightning">Lightning</item>
+        <item name="Quantum">Quantum</item>
+    </string-array>
+
+    <integer-array name="rarity_icon">
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon4_stars</item>
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon4_stars</item>
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon5_stars</item>
+        <item>@drawable/icon5_stars</item>
+    </integer-array>
+
+</resources>

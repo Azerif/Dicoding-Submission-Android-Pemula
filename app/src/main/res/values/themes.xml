@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="MyMaterial3Theme" parent="Theme.Material3.DayNight">-->
+<!--        <item name="colorOnPrimary">@color/teal_200</item>-->
+<!--    </style>-->
+
+    <style name="MyAppCombatTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/purple_500</item> <!-- Action Bar background color -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Title text color -->
+        <item name="colorPrimaryDark">@color/purple_700</item> <!-- Status bar color -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Light status bar text -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/CustomWindowAnimation</item>
+    </style>
+<!--    <style name="Theme.TugasAkhirAplikasiAndroid" parent="MyMaterial3Theme" />-->
+</resources>

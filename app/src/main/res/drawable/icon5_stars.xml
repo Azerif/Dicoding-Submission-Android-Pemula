@@ -1,0 +1,42 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Image 1 -->
+    <item>
+        <bitmap
+            android:src="@drawable/star"
+            android:gravity="left|center_vertical"
+            android:tileMode="disabled" />
+    </item>
+
+    <!-- Image 2 (Offset to the right) -->
+    <item android:left="200dp">
+        <bitmap
+            android:src="@drawable/star"
+            android:gravity="left|center_vertical"
+            android:tileMode="disabled" />
+    </item>
+
+    <!-- Image 3 (Further offset to the right) -->
+    <item android:left="600dp">
+        <bitmap
+            android:src="@drawable/star"
+            android:gravity="left|center_vertical"
+            android:tileMode="disabled" />
+    </item>
+
+    <!-- Image 4 (Final offset to the right) -->
+    <item android:left="400dp">
+        <bitmap
+            android:src="@drawable/star"
+            android:gravity="left|center_vertical"
+            android:tileMode="disabled" />
+    </item>
+
+    <item android:left="800dp">
+        <bitmap
+            android:src="@drawable/star"
+            android:gravity="left|center_vertical"
+            android:tileMode="disabled" />
+    </item>
+
+</layer-list>
