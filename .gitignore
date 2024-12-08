@@ -1,10 +1,26 @@
+# IntelliJ IDEA module files
 *.iml
-.gradle
+
+# Gradle cache and generated files
+.gradle/
+
+# Local machine-specific properties
 /local.properties
-.idea/
+
+# IntelliJ IDEA project files
+/.idea
+
+# macOS Finder metadata
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Build output directories
+/build/
+
+# Android Studio captures
+/captures/
+
+# External native build output
+.externalNativeBuild/
+
+# C++ build system outputs
+.cxx/
